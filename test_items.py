@@ -9,3 +9,4 @@ def test_basket(browser):
     browser.get(link)
     time.sleep(10)
     basket = browser.find_element_by_css_selector('#add_to_basket_form>button[type="submit"]')
+    #от ассерта нет смысла, разве что проверка старых знаний на то , чтобы вытащить атрибут type из кнопки
